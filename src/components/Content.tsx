@@ -1,24 +1,27 @@
-import { ReactNode } from "react";
-
 interface ContentProps {
   topics: string[];
-  content: ReactNode;
+  // content: ReactNode;
 }
 
-function Content({ topics, content }: ContentProps) {
+// Interface Merging
+
+function Content({ topics }: ContentProps) {
   return (
     <div>
       <h2>Lesson topics:</h2>
-      <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+      <ul
+        className="content-list"
+        style={{ listStyleType: "disc", paddingLeft: "20px" }}
+      >
         {topics.map((topic, index) => (
           <li key={index} style={{ marginBottom: "8px" }}>
             {topic}
           </li>
         ))}
       </ul>
-      {content}
+      {/* {content} */}
     </div>
   );
-};
+}
 
 export default Content;

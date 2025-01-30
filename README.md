@@ -48,3 +48,6 @@ export default tseslint.config({
   },
 })
 ```
+
+
+CSS stands for Cascading Style Sheets

@@ -139,3 +139,5 @@ function WrapperComponents() {
 }
 
 export default Lesson1;
+
+export { Lesson1 };

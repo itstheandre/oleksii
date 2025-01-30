@@ -40,3 +40,8 @@
 .read-the-docs {
   color: #888;
 }
+
+.content-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
