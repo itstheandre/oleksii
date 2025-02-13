@@ -29,6 +29,16 @@ function App() {
       content: <Lesson2 />,
       href: "/lesson-2",
     },
+    {
+      href: "/lesson-3",
+      content: <div>TODO</div>,
+      topics: [
+        "api calling",
+        "navigation for dynamic",
+        "build a small pokedex",
+        "debugger",
+      ],
+    },
   ];
   return (
     <Routes>
